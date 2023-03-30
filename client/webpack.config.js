@@ -19,17 +19,20 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      HtmlWebpackPlugin({
+      new HtmlWebpackPlugin({
         template: './index.html',
         title: 'JATE'
       }),
-      new InjectManifest(),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'service-worker.js',
+      }),
       new WebpackPwaManifest({
         name: 'J.A.T.E',
         short_name: 'JATE',
         description: 'Text Editor',
-        // background_color: '#7eb4e2',
-        // theme_color: '#7eb4e2',
+        background_color: '#7eb4e2',
+        theme_color: '#7eb4e2',
         start_url: './',
         publicPath: './',
         icons: [
