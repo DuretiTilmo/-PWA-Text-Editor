@@ -33,9 +33,7 @@ https://serene-wave-48978.herokuapp.com/
 
 -Contact me:
 
-  - Email Address: duretikadir22@gmail.com
- 
-  - Github Profile: duretitilmo
+  - Github Profile: https://github.com/DuretiTilmo
 
   ----------------------------
   &copy; 2023
