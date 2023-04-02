@@ -9,7 +9,7 @@
 -------------------------------------
 ## Description
 
-This web application is a text editor app that runs in the browser. It uses indexDB database for storing and retrieving data. This application can function online as well as offline. 
+This web application is a text editor app that runs in the browser. It uses indexDB database for storing and retrieving data, has a service worker that caches static assets, is bundled with webpack and it can be installed as a Progessive Web Applicatioin. This application can efficiently function online as well as offline. 
 
 ## Links
 
